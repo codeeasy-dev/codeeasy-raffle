@@ -6,7 +6,6 @@ import RaffleButton from './components/Button/RaffleButton'
 import getPeople from './services/googleForms/csv/getPeople';
 
 const App: React.FC = () => {
-  // eslint-disable-next-line
   const [people, setPeople] = useState([
     { id: 0, name: '----------------', },
   ])
@@ -18,8 +17,8 @@ const App: React.FC = () => {
 
   function changeWinner(): void {
     const loop = setInterval(() => {
-      const number = Math.floor(Math.random() * (people.length - 1 + 1)) + 1
-      const newWinner = people.filter(person => person.id === number)[0]
+      const number = Math.floor(Math.random() * (people.length - 1 + 1))
+      const newWinner = people[number]
       setWinner(newWinner)
     }, 50)
 
