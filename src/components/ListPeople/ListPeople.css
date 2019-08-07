@@ -1,0 +1,35 @@
+.borders {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.6);
+  box-shadow: #000 8px 8px 5px;
+  border-radius: 3px;
+  padding: 0;
+}
+
+.background-config {
+  background-color: rgba(0,0,0,.5);
+}
+
+.personal-hr {
+  border: .5px solid #EEE;
+  margin: 0;
+}
+
+.box {
+  height: 550px;
+  overflow-y: scroll;
+  font-size: 24px;
+}
+
+.person {
+  padding-top: 12px;
+  color: #FFF;
+  font-size: 24px;
+  transition-duration: 200ms;
+}
+.person:hover {
+  cursor: default;
+  font-size: 36px;
+  transition-duration: 200ms;
+}

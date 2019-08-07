@@ -1,0 +1,16 @@
+.winner-box {
+  height: 275px;
+  text-align: center;
+  background-color: rgba(0,0,0,.5);
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.6);
+  box-shadow: #000 8px 0 5px;
+  border-radius: 3px;
+  padding: 105px 0px 5px 0px;
+}
+
+.winner {
+  color: #FFFFFF;
+  font-size: 36px;
+}

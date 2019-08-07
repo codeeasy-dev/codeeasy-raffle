@@ -1,0 +1,20 @@
+body {
+  background-image: url('./images/background.jpg');
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  margin-top: 30px;
+}
+
+.title {
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 20px;
+}
