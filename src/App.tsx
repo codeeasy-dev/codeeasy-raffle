@@ -8,7 +8,7 @@ import getPeople from './services/googleForms/csv/getPeople';
 const App: React.FC = () => {
   // eslint-disable-next-line
   const [people, setPeople] = useState([
-    { id: 1, name: '----------------', },
+    { id: 0, name: '----------------', },
   ])
   const [winner, setWinner] = useState({ id: 0, name: '--------------' })
 
