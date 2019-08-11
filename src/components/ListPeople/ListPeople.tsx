@@ -11,7 +11,7 @@ const ListPeople: React.FC<IProps> = ({people}: IProps) => {
   function showPeople() {
     return people.map((person) => (
         <div key={person.id} className="person">
-          <p>{person.name.split(' - ')[0]}</p>
+          <p>{person.name}</p>
           <hr className="personal-hr"/>
         </div>
     ))
